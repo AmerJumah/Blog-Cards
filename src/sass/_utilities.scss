@@ -1,0 +1,22 @@
+$bg-color: #f7f8fc;
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bg-color;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        width: 80%;
+        max-width: 940px;
+        margin: auto;
+    }
+    
+}
